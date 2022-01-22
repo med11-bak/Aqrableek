@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.school.aqrableek.RegistreOrlogin">
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/top1">
+
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/chjra"
+        android:id="@+id/chjra"
+        >
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AqrabLeek"
+        android:layout_below="@id/chjra"
+       android:textSize="30dp"
+android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/aqrab"
+        >
+
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/seconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aqrab"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/khawya"
+        android:text="Se connecter"
+
+        android:textColor="@color/black">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seconnect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/eamra"
+        android:text="Créer un compte"
+        android:textColor="@color/white"
+        android:id="@+id/registre"
+
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/bottom1"
+    android:layout_alignParentBottom="true"
+    android:adjustViewBounds="true"
+    android:layout_marginTop="20dp"
+
+    >
+
+</ImageView>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "503175634589",
+    "firebase_url": "https://aqrableek-f133a-default-rtdb.firebaseio.com",
+    "project_id": "aqrableek-f133a",
+    "storage_bucket": "aqrableek-f133a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503175634589:android:7689030bdf1a0cf61d3e74",
+        "android_client_info": {
+          "package_name": "com.school.aqrableek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503175634589-ghsg7gemouqq3bqkml56el0t3jk03gdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaUsAKYV3sfRgyAFdXZFuF7UKVohNMhQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503175634589-ghsg7gemouqq3bqkml56el0t3jk03gdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

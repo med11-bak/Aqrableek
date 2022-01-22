@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.school.aqrableek.Login">
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:src="@drawable/top2"
+         android:adjustViewBounds="true"
+         android:id="@+id/top"
+         >
+
+     </ImageView>
+
+    <ImageView
+        android:id="@+id/chjra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:src="@drawable/chjra"
+
+
+        >
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chjra"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/input"
+        android:drawableRight="@drawable/phonesolid"
+        android:hint="Numero de téléphone"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/input"
+        android:drawableRight="@drawable/iconpass"
+        android:hint="Mot de pass"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/eamra"
+        android:text="Se connecter"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:id="@+id/login"
+        android:textStyle="bold"
+
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:id="@+id/prg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        >
+
+    </ProgressBar>
+</RelativeLayout>
